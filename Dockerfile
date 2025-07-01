@@ -1,4 +1,4 @@
-FROM ghcr.io/shadichy/aaropa_rootfs_base:latest as builder
+FROM ghcr.io/shadichy/aaropa_rootfs_base:main as builder
 
 COPY template /
 COPY packages /
